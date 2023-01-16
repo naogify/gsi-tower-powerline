@@ -1,0 +1,17 @@
+id: geolonia-electric-line-name
+type: symbol
+source: gsi-japan
+source-layer: structurel
+filter: ["==", ftCode, 8202]
+layout:
+  text-anchor: center
+  text-font:
+    - Noto Sans Regular
+  text-size: 14
+  text-field: '送電線'
+  text-allow-overlap: true
+  symbol-placement: line
+paint:
+  text-color: rgba(102, 102, 102, 1)
+  text-halo-width: 1.2
+  text-halo-color: rgba(255,255,255,0.8)

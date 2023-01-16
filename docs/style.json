@@ -8040,6 +8040,90 @@
       }
     },
     {
+      "id": "geolonia-electric-line",
+      "type": "line",
+      "source": "gsi-japan",
+      "source-layer": "structurel",
+      "filter": [
+        "==",
+        "ftCode",
+        8202
+      ],
+      "paint": {
+        "line-color": "#ff0000",
+        "line-width": 3
+      }
+    },
+    {
+      "id": "geolonia-electric-line-name",
+      "type": "symbol",
+      "source": "gsi-japan",
+      "source-layer": "structurel",
+      "filter": [
+        "==",
+        "ftCode",
+        8202
+      ],
+      "layout": {
+        "text-anchor": "center",
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-size": 14,
+        "text-field": "送電線",
+        "text-allow-overlap": true,
+        "symbol-placement": "line"
+      },
+      "paint": {
+        "text-color": "rgba(102, 102, 102, 1)",
+        "text-halo-width": 1.2,
+        "text-halo-color": "rgba(255,255,255,0.8)"
+      }
+    },
+    {
+      "id": "geolonia-radio-tower",
+      "type": "circle",
+      "source": "gsi-japan",
+      "source-layer": "symbol",
+      "filter": [
+        "==",
+        "ftCode",
+        8105
+      ],
+      "paint": {
+        "circle-radius": 10,
+        "circle-color": "#00FF00"
+      }
+    },
+    {
+      "id": "geolonia-radio-tower-name",
+      "type": "symbol",
+      "source": "gsi-japan",
+      "source-layer": "symbol",
+      "filter": [
+        "==",
+        "ftCode",
+        8105
+      ],
+      "layout": {
+        "text-anchor": "top",
+        "text-offset": [
+          0,
+          0.5
+        ],
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-size": 14,
+        "text-field": "電波塔"
+      },
+      "paint": {
+        "text-color": "rgba(102, 102, 102, 1)",
+        "text-halo-width": 1.2,
+        "text-halo-color": "rgba(255,255,255,0.8)"
+      }
+    },
+    {
       "id": "geolonia-high-tower",
       "type": "circle",
       "source": "gsi-japan",
@@ -8055,33 +8139,32 @@
       }
     },
     {
-      "id": "geolonia-radio-tower",
-      "type": "circle",
-      "source": "gsi-japan",
-      "source-layer": "symbol",
-      "filter": [
-        "==",
-        "ftCode",
-        8105
-      ],
-      "paint": {
-        "circle-radius": 10,
-        "circle-color": "#ff0000"
-      }
-    },
-    {
-      "id": "geolonia-electric-line",
-      "type": "line",
+      "id": "geolonia-high-tower-name",
+      "type": "symbol",
       "source": "gsi-japan",
       "source-layer": "structurel",
       "filter": [
         "==",
         "ftCode",
-        8202
+        4201
       ],
+      "layout": {
+        "text-anchor": "top",
+        "text-offset": [
+          0,
+          0.5
+        ],
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-size": 14,
+        "text-field": "高塔",
+        "text-allow-overlap": true
+      },
       "paint": {
-        "line-color": "#ff0000",
-        "line-width": 3
+        "text-color": "rgba(102, 102, 102, 1)",
+        "text-halo-width": 1.2,
+        "text-halo-color": "rgba(255,255,255,0.8)"
       }
     }
   ]

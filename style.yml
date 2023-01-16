@@ -166,7 +166,11 @@ layers:
   - !!inc/file layers/place-city-rank3.yml
   - !!inc/file layers/place-city-rank2.yml
   - !!inc/file layers/place-city-capital.yml
-  - !!inc/file layers/geolonia-high-tower.yml
-  - !!inc/file layers/geolonia-radio-tower.yml
   - !!inc/file layers/geolonia-electric-line.yml
+  - !!inc/file layers/geolonia-electric-line-name.yml
+  - !!inc/file layers/geolonia-radio-tower.yml
+  - !!inc/file layers/geolonia-radio-tower-name.yml
+  - !!inc/file layers/geolonia-high-tower.yml
+  - !!inc/file layers/geolonia-high-tower-name.yml
+
 

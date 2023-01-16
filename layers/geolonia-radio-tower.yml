@@ -5,4 +5,4 @@ source-layer: symbol
 filter: ["==", ftCode, 8105]
 paint:
   circle-radius: 10
-  circle-color: '#ff0000'
+  circle-color: '#00FF00'
