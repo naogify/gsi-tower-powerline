@@ -1,0 +1,8 @@
+id: geolonia-radio-tower
+type: circle
+source: gsi-japan
+source-layer: symbol
+filter: ["==", ftCode, 8105]
+paint:
+  circle-radius: 10
+  circle-color: '#ff0000'

@@ -1,6 +1,7 @@
 {
   "version": 8,
   "name": "GSI Japan + OpenStreetMap based style for Geolonia",
+  "zoom": 14,
   "sources": {
     "oceanus": {
       "type": "vector",
@@ -8036,6 +8037,31 @@
         "text-color": "#333",
         "text-halo-width": 1.2,
         "text-halo-color": "rgba(255,255,255,0.8)"
+      }
+    },
+    {
+      "id": "geolonia-high-tower",
+      "type": "circle",
+      "source": "gsi-japan",
+      "source-layer": "structurel",
+      "filter": [
+        "==",
+        "ftCode",
+        4201
+      ],
+      "paint": {
+        "circle-radius": 10,
+        "circle-color": "#ff0000"
+      }
+    },
+    {
+      "id": "geolonia-radio-tower",
+      "type": "circle",
+      "source": "gsi-japan",
+      "source-layer": "structurel",
+      "paint": {
+        "circle-radius": 10,
+        "circle-color": "#0d33ff"
       }
     }
   ]

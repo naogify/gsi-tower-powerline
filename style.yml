@@ -1,5 +1,6 @@
 version: 8
 name: GSI Japan + OpenStreetMap based style for Geolonia
+zoom: 14
 sources:
   oceanus:
     type: vector
@@ -165,3 +166,7 @@ layers:
   - !!inc/file layers/place-city-rank3.yml
   - !!inc/file layers/place-city-rank2.yml
   - !!inc/file layers/place-city-capital.yml
+  - !!inc/file layers/geolonia-high-tower.yml
+  - !!inc/file layers/geolonia-radio-tower.yml
+  - !!inc/file layers/geolonia-electric-line.yml
+
