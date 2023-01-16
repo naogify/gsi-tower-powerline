@@ -8051,17 +8051,37 @@
       ],
       "paint": {
         "circle-radius": 10,
-        "circle-color": "#ff0000"
+        "circle-color": "#0d33ff"
       }
     },
     {
       "id": "geolonia-radio-tower",
       "type": "circle",
       "source": "gsi-japan",
-      "source-layer": "structurel",
+      "source-layer": "symbol",
+      "filter": [
+        "==",
+        "ftCode",
+        8105
+      ],
       "paint": {
         "circle-radius": 10,
-        "circle-color": "#0d33ff"
+        "circle-color": "#ff0000"
+      }
+    },
+    {
+      "id": "geolonia-electric-line",
+      "type": "line",
+      "source": "gsi-japan",
+      "source-layer": "structurel",
+      "filter": [
+        "==",
+        "ftCode",
+        8202
+      ],
+      "paint": {
+        "line-color": "#ff0000",
+        "line-width": 3
       }
     }
   ]
