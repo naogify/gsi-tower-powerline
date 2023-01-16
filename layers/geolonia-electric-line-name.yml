@@ -6,7 +6,7 @@ filter: ["==", ftCode, 8202]
 layout:
   text-anchor: center
   text-font:
-    - Noto Sans Regular
+    - Noto Sans CJK JP Bold
   text-size: 14
   text-field: '送電線'
   text-allow-overlap: true

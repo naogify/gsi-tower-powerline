@@ -1,8 +1,8 @@
 id: geolonia-high-tower
-type: circle
+type: line
 source: gsi-japan
 source-layer: structurel
 filter: ["==", ftCode, 4201]
 paint:
-  circle-radius: 10
-  circle-color: '#0d33ff'
+  line-color: '#0d33ff'
+  line-width: 5

@@ -9,7 +9,7 @@ layout:
     - 0
     - 0.5
   text-font:
-    - Noto Sans Regular
+    - Noto Sans CJK JP Bold
   text-size: 14
   text-field: '電波塔'
 paint:
